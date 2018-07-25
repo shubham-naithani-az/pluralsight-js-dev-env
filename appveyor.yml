@@ -1,11 +1,11 @@
 #Test this against this version of node
-enviroment:
-  martrix:
+enviroment :
+  martrix :
         #node_js
         nodejs_version: "6"
 
 #Install Scripts (runs after repo cloning)
-install:
+install :
   #get latest stable version of node.js or io.js
   - ps: Install-Product node $env:nodejs_version
   #install modules
@@ -13,7 +13,7 @@ install:
 
 
 #Post-install test scripts.
-test_script:
+test_script :
   #Output useful info for debugging
   - node --version
   - npm --version
@@ -22,4 +22,4 @@ test_script:
 
 
 #Don't actually build
-build: off
+build : off
