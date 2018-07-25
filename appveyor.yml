@@ -2,7 +2,7 @@
 environment:
   martrix:
         #node_js
-        nodejs_version: "6"
+        - nodejs_version: "6"
 
 #Install Scripts (runs after repo cloning)
 install:
