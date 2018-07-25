@@ -1,6 +1,6 @@
 #Test this against this version of node
 environment:
-  martrix:
+  matrix:
         #node_js
         - nodejs_version: "6"
 
